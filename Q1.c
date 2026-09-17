@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int S;
+    printf("Enter Pizza Size\n 1=For Small\n 2=For Medium\n 3=For Large\n \n");
+    scanf("%d", &S);
+    switch (S){
+    case 1: printf("Small Size Selected");
+    break;
+    case 2: printf("Medium Size Selected");
+    break;
+    case 3: printf("Large Size Selected");
+    break;
+    default: printf("Invalid Size");
+    }
+
+    return 0;
+}
